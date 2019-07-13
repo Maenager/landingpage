@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Maenager </title>
+  <link rel="icon" type="image/png" href="images/micon.png">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  
+  <!-- CSS -->
+    <style type="text/css">
+    #main-home{
+      background-position: center center;
+      background-size: cover;
+      height: auto;
+      left: 0;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 0;
+      width: auto;
+    }
+
+    body {
+        background: #f0f0f0;
+    }
+    body, html {
+        height: 100%;    
+    }
+    #main {
+        height: 100%;
+    }
+    section {
+      padding: 0% 0;
+      height: 100%;
+    }
+    #dot-nav{    
+      right: 10px;
+      top: 50%;
+      margin-top: -50px;
+      height: 100px;
+      z-index: 999;
+    }
+
+    #dot-nav ul {
+      list-style: none;
+      margin:0;
+      padding: 0;
+    }
+    #dot-nav li {
+      position: relative;
+      background-color: #bdc3c7;
+      border:3px solid #bdc3c7;
+      border-radius: 15px 15px 15px 15px;
+      cursor: pointer;
+      padding: 5px;
+      height: 10px;
+      margin: 10px 10px 0px 0px;
+      width: 10px;
+      vertical-align:bottom;
+    }
+    #dot-nav li.active, #dot-nav li:hover {
+      background-color: #8e44ad;
+    }
+
+    #dot-nav a {
+      outline: 0;
+      vertical-align:top;
+      margin: 0px 0px 0px 25px;
+      position: relative;
+      top:-5px;
+    }
+    /*
+    .tinted-image {
+      background: 
+    **top, transparent red, faked with gradient**  
+        linear-gradient(
+          rgba(0, 0, 0, 0.50), 
+          rgba(0, 0, 0, 0.50)
+          ),
+     **bottom, image**
+      url(image.jpg);
+    }
+    */
+
+    .awesome-tooltip + .tooltip > .tooltip-inner {
+        /*background-color: #8e44ad;*/ 
+        color: #f5f5f5; 
+        border: 1px solid #8e44ad; 
+    }
+    .awesome-tooltip + .tooltip.left > .tooltip-arrow{
+        top:50%;
+        right:0;
+        margin-top:-5px;
+        border-top:5px solid transparent;
+        border-bottom:5px solid transparent;
+        border-left:5px solid #8e44ad;
+    }
+      </style>
+    </head>
+    <body>
+
+
+  <!-- HTML -->
+<div data-spy="affix" id="dot-nav">
+    	<ul>
+	      <li class="awesome-tooltip active" title="Home"><a href="#home"></a></li>
+	      <li class="awesome-tooltip" title="About"><a href="#about"></a></li>
+	      <li class="awesome-tooltip" title="Projects"><a href="#projects"></a></li>
+	      <li class="awesome-tooltip" title="Contact"><a href="#contact"></a></li>
+	    </ul>
+	</div>
+    
+    <div id="main" class="">
+    	<section id="home" style="padding:0">
+          <div class="main" style="background-image: url('images/blur.jpg')" id="main-home">
+
+<!--    Change the image source 'images/rick.jpg' with your favourite image.     -->
+    
+    <div class="cover black" data-color="black"></div>
+     
+<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
+
+    <div class="container">
+       <!-- <h1 class="logo cursive"> -->
+        
+<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
+        
+        <div class="content">
+
+           <center style= "padding-top: 150px;" > <img src="images/misow.png" style="min-height: 110px;"></center>
+
+            <h4 class="motto" style="min-height: 100px; text-align: center; color: white; padding-top: 50px">Proximamente estaremos en funcionamiento.</h4>
+            <div class="subscribe">
+                <h5 class="info-text" style="text-align: center; color: white;">
+                    ¡Unete a la lista de espera!
+                </h5>
+                <div class="row">
+                    <center><div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
+                        <form class="form-inline" role="form">
+                          <div class="form-group">
+                            <label class="sr-only" for="exampleInputEmail2">Email</label>
+                            <input type="email" class="form-control transparent" placeholder="Coloca tu correo electronico">
+                          </div>
+                          <button type="submit" class="btn btn-info btn-fill">¡Avisame!</button></center>
+                        </form>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>           
+    	</section>
+        <section id="about">
+          <!--<img src="images/sobre.jpg" >-->
+           <article>
+               <div class="row"  style="position: absolute; width: 101%; height: 100%; background: linear-gradient(rgba(255,255,255,0.50), rgba(255,255,255,0.50));background-image: url(images/sobre.jpg); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+                   <div class="col-md-12" style= "background: linear-gradient(rgba(255,255,255,0.50), rgba(255,255,255,0.50)); height: 100%;" >
+                     <h1 style="padding-left: 200px; padding-top: 100px; color: black;"><b><i>About</i></b></h1>
+                     <br><br>
+                       <p style="text-align: justify; padding-left: 250px; padding-right: 450px; font-size: 24px; color: black;">
+                        Mænager es un CRM dedicado y desarrollado principalmente para facilitar el manejo de clientes web. Uno de las principales ventajas que tiene el servicio de Mænager es que tiene una gran integración a varias aplicaciones web según requiera el cliente.                                
+                       </p>
+                   </div>
+               </div>
+           </article>           
+        </section>
+        <section id="projects">
+          <!-- <img src="images/proyectos.jpg" style="position: absolute; width: 100%;"> -->
+           <article>
+               <div class="row" style="position: absolute; width: 101%; height: 100%; background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50));background-image: url(images/proyectos.jpg); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+                   <div class="col-md-12" style= "background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)); height: 100%;">
+                    <h1 style="padding-left: 200px; padding-top: 100px; color: white;"><b><i>Projects</i></b></h1>
+                       <br>
+                        <p>
+                          <ul style="padding-left: 250px; padding-right: 150px; font-size: 24px; color: white;">
+                          Adaptabilidad: Adoptar facilmente al diccionario del cliente.<br>
+                          Intuitivo: Fácil manejo. <br>
+                          Automatización: Clave importante, la optimización y la transformación digital, es la necesidad para tener la capacidad para escalar mas rapido.                              
+                       </ul>
+                       </p>
+                   </div>
+               </div>
+           </article>           
+        </section>
+        <section id="contact">
+          <!-- <img src="images/contacto.jpg" style="position: absolute; width: 100%;"> -->
+           <article>
+               <div class="row" style="position: absolute; width: 101%; height: 100%; background: linear-gradient(rgba(255,255,255,0.50), rgba(255,255,255,0.50));background-image: url(images/contacto.jpg); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+                   <div class="col-md-12" style= "background: linear-gradient(rgba(255,255,255,0.50), rgba(255,255,255,0.50)); height: 100%;">
+        <h1 style="padding-left: 250px; padding-top: 100px;"><b><i>Contact</i></b></h1>
+                   <br>
+                  <ul class="nav justify-content-center" style="padding-left: 500px; padding-top: 50px; font-size: 100px;">
+                        <a class="nav-link active" href="https://www.facebook.com/Maenager">
+                          <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a class="nav-link" href="https://www.instagram.com/maenager_services">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="nav-link" href="https://twitter.com/_Maenager">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                  </ul>
+                   </div>
+               </div>
+           </article>           
+        </section>        
+    </div>
+
+    <!-- JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+    $('.awesome-tooltip').tooltip({
+        placement: 'left'
+    });   
+
+    $(window).bind('scroll',function(e){
+      dotnavigation();
+    });
+    
+    function dotnavigation(){
+             
+        var numSections = $('section').length;
+        
+        $('#dot-nav li a').removeClass('active').parent('li').removeClass('active');     
+        $('section').each(function(i,item){
+          var ele = $(item), nextTop;
+          
+          console.log(ele.next().html());
+          
+          if (typeof ele.next().offset() != "undefined") {
+            nextTop = ele.next().offset().top;
+          }
+          else {
+            nextTop = $(document).height();
+          }
+          
+          if (ele.offset() !== null) {
+            thisTop = ele.offset().top - ((nextTop - ele.offset().top) / numSections);
+          }
+          else {
+            thisTop = 0;
+          }
+          
+          var docTop = $(document).scrollTop();
+          
+          if(docTop >= thisTop && (docTop < nextTop)){
+            $('#dot-nav li').eq(i).addClass('active');
+          }
+        });   
+    }
+
+    /* get clicks working */
+    $('#dot-nav li').click(function(){
+      
+        var id = $(this).find('a').attr("href"),
+          posi,
+          ele,
+          padding = 0;
+      
+        ele = $(id);
+        posi = ($(ele).offset()||0).top - padding;
+      
+        $('html, body').animate({scrollTop:posi}, 'slow');
+      
+        return false;
+    });
+
+/* end dot nav */
+});
+    </script>
+</body>
+</html>
